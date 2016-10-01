@@ -28,16 +28,12 @@ Implementing Ajax using JavaScript & jQuery
 
 
 ### XMLHttpRequest object (interacts with a server to:)
-========================================================
-
 - request to Server,
 - receiving Response and 
 - updating the Page
 
 
 ##### XMLHttpRequest Object Sample
-==================================
-
 
 ```
 		var http = new XMLHttpRequest();
