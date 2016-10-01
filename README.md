@@ -4,7 +4,7 @@
 
 
 -  `XMLHttpRequest` object very simple break down (see aboutAjax.md)
--  JS and jQuery approach and a couple samples
+-  JS and jQuery methods and a few examples
 -  whatever else I find relevant...it will go here
 
 <br />
