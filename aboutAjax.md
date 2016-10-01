@@ -1,4 +1,4 @@
-# Implementing Ajax using JavaScript & jQuery
+Implementing Ajax using JavaScript & jQuery
 =============================================
 
 ### about ajax
