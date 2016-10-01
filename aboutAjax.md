@@ -2,8 +2,6 @@ Implementing Ajax using JavaScript & jQuery
 =============================================
 
 ### about ajax
-==============
-
 - stands for asynchronous javascript
 - update a small section of a page without reloading
 - sends a request to the server without changing the page
@@ -11,7 +9,6 @@ Implementing Ajax using JavaScript & jQuery
 - client browser updates section
 
 #### Ex: search box analogy -- ajax
-===================================
 - first thing that happens as user starts typing:
 
 	*	client browser sends a request to the server without changing
