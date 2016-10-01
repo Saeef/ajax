@@ -71,7 +71,8 @@ Implementing Ajax using JavaScript & jQuery
         GET, and it's empty cause parameters sent via the URL. POST, will 
         have something like `send(data)`; which will contain the message.
 
-
+<br />
+<hr />
 
 ### XMLHTTpRequest
 ==================
