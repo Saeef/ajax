@@ -82,8 +82,9 @@ Implementing Ajax using JavaScript & jQuery
 - receive a response to the server
 
 1) readyState (property)
-   - used to determine the current status of request
-   - its value ranges from 0 to 4
+
+  - used to determine the current status of request
+  - its value ranges from 0 to 4
 
   -		0: request not initialized by client yet
   -		1: connection is established with server
