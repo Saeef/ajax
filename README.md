@@ -11,5 +11,5 @@
 <br />
 <hr />
 
-> XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server. 
+> **XMLHttpRequest** is an API that provides client functionality for transferring data between a client and a server. 
 > It provides an easy way to retrieve data from a URL without having to do a full page refresh. - from MDN. 
