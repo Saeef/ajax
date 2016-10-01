@@ -99,19 +99,19 @@ Implementing Ajax using JavaScript & jQuery
 
 
 3) Onreadystatechange
-	-  it's a function which run everytinme the value of readyState changes
-	-  this function will be called whenever readyState value changes from
-   	   0 to 1, 1 to 2, 2 to 3, and 3 to 4.
+-  it's a function which run everytinme the value of readyState changes
+-  this function will be called whenever readyState value changes from
+   0 to 1, 1 to 2, 2 to 3, and 3 to 4.
 
 4) open(method, server url, asynchronous)
-	-  a method use to specify the connection parameters
-	-  method refers to GET or POST
-	-  the url where the server request from the client is going to be send up
-	-  asynchronous - value of false
+-  a method use to specify the connection parameters
+-  method refers to GET or POST
+-  the url where the server request from the client is going to be send up
+-  asynchronous - value of false
 
 5) send()
-	-  send(), without any parameters for GET method - cause send through url
-	-  send(data), with parameter-data inside of it, for POST method
+-  send(), without any parameters for GET method - cause send through url
+-  send(data), with parameter-data inside of it, for POST method
 
 
 #### XMLHttpRequest -> properties to receive response to server
