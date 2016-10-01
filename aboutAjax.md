@@ -19,8 +19,7 @@ Implementing Ajax using JavaScript & jQuery
 
 
 
-### ajax in JS
-==============
+## ajax in JS 
 
 - client loads web page
 - request to the server
