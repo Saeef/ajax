@@ -85,11 +85,11 @@ Implementing Ajax using JavaScript & jQuery
 -  used to determine the current status of request
 -  its value ranges from 0 to 4
 
--		0: request not initialized by client yet
--		1: connection is established with server
--		2: request is received by server
--		3: server is processing request
--		4: response is ready and received by client
+		0: request not initialized by client yet
+		1: connection is established with server
+		2: request is received by server
+		3: server is processing request
+		4: response is ready and received by client
 
 2. status
 -  it specifies if request was successful or not
