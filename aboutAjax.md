@@ -32,7 +32,7 @@ Implementing Ajax using JavaScript & jQuery
 - receiving Response and 
 - updating the Page
 
-
+<br />
 ##### XMLHttpRequest Object Sample
 
 ```
@@ -50,8 +50,9 @@ Implementing Ajax using JavaScript & jQuery
 		http.send();
 
 ```
+<br />
 
-* What's happening here above:
+#### What's happening here above:
 
 - 	create your `new instance`, and
 - 	apply to it the `onreadystatechange` method; which 
