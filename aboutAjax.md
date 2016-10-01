@@ -74,8 +74,8 @@ Implementing Ajax using JavaScript & jQuery
 <br />
 <hr />
 
-
-### XMLHTTpRequest
+<br />
+### XMLHttpRequest
 
 - use to interact with the server,
 - use to send a request to server,
