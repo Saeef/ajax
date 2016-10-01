@@ -15,9 +15,8 @@ Implementing Ajax using JavaScript & jQuery
 		the page, along with search terms entered by user 		
 	*	server receives request, along with search terms and sends the response
 		back - in this case, a list of possible suggestions
-
-
-
+		
+<br />	
 
 ## ajax in JS 
 
