@@ -51,7 +51,7 @@ Implementing Ajax using JavaScript & jQuery
 
 ```
 <br />
-
+<hr />
 #### What's happening here above:
 
 - 	create your `new instance`, and
