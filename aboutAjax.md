@@ -76,8 +76,8 @@
   	to connect to the server asynchronously, and 
   	`pass the server's url`, and last:
 - 	send() function to send your data. Send() without parameters, assumes
-    GET, and it's empty cause parameters sent via the URL. POST, will 
-    have something like `send(data)`; which will contain the message.
+        GET, and it's empty cause parameters sent via the URL. POST, will 
+        have something like `send(data)`; which will contain the message.
 
 
 
@@ -115,7 +115,6 @@
 -  method refers to GET or POST
 -  the url where the server request from the client is going to be send up
 -  asynchronous - value of false
-
 
 5. send()
 -  send(), without any parameters for GET method - cause send through url
