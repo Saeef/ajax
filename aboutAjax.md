@@ -82,8 +82,8 @@ Implementing Ajax using JavaScript & jQuery
 - receive a response to the server
 
 1) readyState (property)
--  used to determine the current status of request
--  its value ranges from 0 to 4
+	-  used to determine the current status of request
+	-  its value ranges from 0 to 4
 
 		0: request not initialized by client yet
 		1: connection is established with server
@@ -91,27 +91,27 @@ Implementing Ajax using JavaScript & jQuery
 		3: server is processing request
 		4: response is ready and received by client
 
-2. status
--  it specifies if request was successful or not
+2) status
+	-  it specifies if request was successful or not
 
--		200: OK ex: request was successful
--		404: page not found
+		200: OK ex: request was successful
+		404: page not found
 
 
-3. Onreadystatechange
--  it's a function which run everytinme the value of readyState changes
--  this function will be called whenever readyState value changes from
-   0 to 1, 1 to 2, 2 to 3, and 3 to 4.
+3) Onreadystatechange
+	-  it's a function which run everytinme the value of readyState changes
+	-  this function will be called whenever readyState value changes from
+   	   0 to 1, 1 to 2, 2 to 3, and 3 to 4.
 
-4. open(method, server url, asynchronous)
--  a method use to specify the connection parameters
--  method refers to GET or POST
--  the url where the server request from the client is going to be send up
--  asynchronous - value of false
+4) open(method, server url, asynchronous)
+	-  a method use to specify the connection parameters
+	-  method refers to GET or POST
+	-  the url where the server request from the client is going to be send up
+	-  asynchronous - value of false
 
-5. send()
--  send(), without any parameters for GET method - cause send through url
--  send(data), with parameter-data inside of it, for POST method
+5) send()
+	-  send(), without any parameters for GET method - cause send through url
+	-  send(data), with parameter-data inside of it, for POST method
 
 
 #### XMLHttpRequest -> properties to receive response to server
