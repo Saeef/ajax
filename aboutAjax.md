@@ -81,7 +81,7 @@ Implementing Ajax using JavaScript & jQuery
 - use to send a request to server,
 - receive a response to the server
 
-1) `readyState` (property)
+1) `**readyState**` (property)
     - used to determine the current status of request
     - its value ranges from 0 to 4
 
