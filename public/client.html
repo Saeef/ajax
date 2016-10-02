@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Server Request & Response</title>
+	<script type="text/javascript">
+		
+		function updateText() {
+
+			var current_text = document.getElementById('user_text').value;
+			var http = new XMLHttpRequest();
+			http.onreadystatechange = function() {
+				if(http.readyState == 4 && http.status == 200) {
+					var response = http.responseText;
+					document.getElementById('server_response').value = response;
+				}
+			};
+			http.open("GET","http://localhost/server.php?user_text="+
+				      current_text, true);
+			http.send();
+		}
+
+	</script>
+</head>
+<body style="width: 900px; margin:0 auto;padding:1em;">
+	<section>
+		<div class="mainBox">
+			<div class="inputText">
+				Input Text :
+				<input type="text" name="user_text" id="user_text"
+				onkeyup="updateText();">
+			</div>  <!--  end of div inputText   -->  	
+			<div class="serverResponse">
+				Server Resp.:
+				<input type="text" name="server_response" id="server_response">
+			</div>  <!--  end of div serverResponse   -->  	
+		</div>  <!--  end of div mainBox   -->  	
+	</section>  <!--  end of section   -->  
+
+<!-- XMLHttpRequest to interact with server     -->  	
+		
+
+</body>
+</html>
