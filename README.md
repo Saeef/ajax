@@ -9,10 +9,10 @@
 
 ```sh
 
-   * I'm also using XAMPP (OSX).  
-   * If problems starting server, check ports - I had to changed   
-     my default port config(3306).    
-   * Served at localhost and htdocs its your root folder.    
+   I'm also using XAMPP (OSX).  
+   If problems starting server, check ports - I had to changed   
+   my default port config(3306).    
+   Served at localhost and htdocs its your root folder.    
 
 	
 ```
