@@ -6,11 +6,13 @@
 -  `XMLHttpRequest` object very simple break down (see aboutAjax.md)
 -  JS and jQuery methods and a few examples
 -  About client.html file
+
 -	An example of `data-binding` without angular
 -	`onkeyup` a value entered into input field, is captured by $_GET, and converted   
 	 to uppercase inside of server.php   
 -        a new XMLHttpRequest object inside of a function in client.html, then processes this         
-         the data, connects to server.php and serves it to the client browser asynchronously.	 
+         the data, connects to server.php and serves it to the client browser asynchronously.   	
+	 
 -  whatever else I find relevant...it will go here
 
 ```
