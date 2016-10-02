@@ -13,7 +13,7 @@
 	    to uppercase inside of `server.php`   
 
 	-  a new `XMLHttpRequest` object inside of a function in `client.html`, then processes this         
-           data, connects to `server.php` and serves it to the client browser `asynchronously`.   	
+           data, connects to `server.php` and serves it back to the client browser `asynchronously`.   	
 	 
 	 
 -  whatever else I find relevant...it will go here
