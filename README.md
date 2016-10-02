@@ -8,7 +8,7 @@
 -  whatever else I find relevant...it will go here
 
 ```
-
+Installation:
 -   I'm also using XAMPP (OSX).  
 -   If problems starting server, check ports - I had to changed   
     my default port config(3306).    
