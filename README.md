@@ -24,7 +24,7 @@ Requires:
 -   I'm also using XAMPP (OSX).  
 -   If problems starting local server, check ports - I had to changed   
     my default port config(3306). That's all.    
--   Served at localhost and htdocs its your root folder.    
+-   Served at localhost and htdocs it's your root folder.    
 
 	
 ```
