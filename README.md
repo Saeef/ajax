@@ -9,7 +9,7 @@
 
 	-  It's an example of `data-binding` without angular
 
-	-  `onkeyup` a value entered into input field, is captured by `$_GET`, and converted   
+	- `onkeyup` a value entered into input field, is captured by `$_GET`, and converted   
 	    to uppercase inside of `server.php`   
 
 	-  a new `XMLHttpRequest` object inside of a function in `client.html`, then processes this         
