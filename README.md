@@ -7,7 +7,7 @@
 -  JS and jQuery methods and a few examples
 -  About __client.html__ file
 
-	-  An example of `data-binding` without angular
+	-  It's an example of `data-binding` without angular
 
 	-  `onkeyup` a value entered into input field, is captured by `$_GET`, and converted   
 	    to uppercase inside of `server.php`   
