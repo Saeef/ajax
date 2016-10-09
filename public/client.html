@@ -15,6 +15,7 @@
 					document.getElementById('server_response').value = response;
 				}
 			};
+			// GET passed through URL
 			http.open("GET","http://localhost/server.php?user_text="+
 				      current_text, true);
 			http.send();
@@ -37,7 +38,7 @@
 		</div>  <!--  end of div mainBox   -->  	
 	</section>  <!--  end of section   -->  
 
-<!-- XMLHttpRequest to interact with server     -->  	
+
 		
 
 </body>
