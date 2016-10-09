@@ -117,6 +117,7 @@ $RECYCLE.BIN/
 /xsl_folder/**
 config.js
 /src_ajax/**
+access_token.json
 other_notes.txt
 
 # MongoDB acct info
