@@ -1,26 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>git client</title>
+	<title>git Client</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="gitclient.css">
+	<script type="text/javascript" src="access_token.json"></script>
+	<script type="text/javascript">
+	// json-getting error apparently im double parsing json so stringify 
+	// to the rescue
+	// this below did not work
+	// var access_token = JSON.parse(data);   
+	// but this works good
+	var access_token = JSON.stringify(data);
+	console.log(access_token);//returns {"secret_key":"value"}
+	var response = {};
+	var json = {};
+	var jdata = {};
+	
+
+	function grabData() {
+		//gets the username value
+		var username = document.getElementById('email').value;
+		console.log(username);//github username
+		
+		
+		debugger;
+		var http = new XMLHttpRequest();
+		http.onreadystatechange = function() {
+			if(http.readyState == 4 && http.status == 200) {
+			  json = (function() {
+			 	response = http.responseText;
+			 		return function() {
+			 			// this is giving me an object that i can work with
+			 			return JSON.parse(response);
+			 			
+			 		}	
+			 	})();  //json
+			 	console.log(json(response));
+			 	// I could probably use a function for this later
+			 	// entire object array
+			 	var data = json(response);
+			 	//username
+			 	var user =  data['login'];
+			 	// user location
+				var loc = data['location'];
+			 	// number of followers
+				var followers = data['followers_url'];
+				followers.length;
+			 	// number of repos
+				var repos = data['repos_url'];
+				// number of repos in one page damn it!
+				// i got twice as many repos -need to look api
+				repos.lenght;
+
+				//message
+				document.getElementById('message').value = response;
+
+				//messageme
+				document.getElementById('messageme').value = "Username is: " + user + "\n" +
+
+						"Current location is " + loc + "\n" +
+
+						"Number of followers: " + followers.length + "\n" +
+
+						"Number of repos per page: " + repos.length + "\n";
+
+
+			}	
+		}; //http
+
+		http.open("GET","https://api.github.com/users/" + username, true);
+		http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+		http.send();
+
+
+
+
+		
+
+
+		//will prevent form from submitting
+		//added return to the inline function call too.
+		return false;
+	}
+
+
+
+	</script>
+
 </head>
 <body>
-	<section>
-		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<section class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-4 col-xs-12">
+				<h1>gitAPI</h1>
+			</div>
+		</div>
+		<form id="contact_form" action="" method="GET">
 			<div class="row">
+				<div class="col-lg-6 col-lg-offset-4 col-xs-12">
 				<label for="name">Your name:</label><br />
-				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				<input id="name" class="input" name="name" type="text" value="" size="30"
+						placeholder="don't care about your name" /><br />
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-lg-6 col-lg-offset-4 col-xs-12">
+				<label for="email">gitHub Username:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="30"
+						placeholder="enter your username" /><br />
+				</div>
 			</div>
 			<div class="row">
-				<label for="email">Your email:</label><br />
-				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				<div class="col-lg-6 col-lg-offset-4 col-xs-12">
+				<label for="message">Your message: (All data)</label><br />
+				<textarea id="message" class="input" name="message" rows="12" cols="30"
+						  placeholder="don't care what u have to say, in fact don't say a word - just enter your github username please"></textarea><br />
+				</div>
 			</div>
 			<div class="row">
-				<label for="message">Your message:</label><br />
-				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				<div class="col-lg-6 col-lg-offset-4 col-xs-12">
+				<label for="message">Your message: (Selected data)</label><br />
+				<textarea id="messageme" class="input" name="messageme" rows="12" cols="30"
+						  placeholder="don't care what u have to say, in fact don't say a word - just enter your github username please"></textarea><br />
+				</div>
 			</div>
-			<input id="submit_button" type="submit" value="Send email" />
-		</form>						
+
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-4">
+				<button id="submit" type="submit" class="btn btn-default btn-lg"
+						onclick="return grabData();">Submit</button>
+				</div>
+			</div>
+		</form>
+		<div class="row bottom">
+		<div class="col-lg-10 col-lg-offset-1">
+			<p>Picked gitHub API for this example - to grab JSON data: get the
+			number of repos and number of followers with someone's user name.
+			This one is from an external source. Last one, I did was just a sort
+			of data-binding but with a local server and without Angular, only
+			Ajax.
+			</p>
+			<p>
+				For <strong>troubleshooting</strong> Cross-Origin Resource Sharing (CORS) try link below<p>
+				
+			<p>Helpful documentation: <a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
+
+			</p>
+		</div>
+	</div>						
 	</section>
+
 </body>
 </html>
