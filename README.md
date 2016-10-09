@@ -25,6 +25,12 @@
 - Spent most of my time on an error I got parsing my `secret key` (Part of the Auth). Eventually, I managed
   to fix the problem using JSON.stringify(). __But__,
 - only to find out that `it wasn't even necessary`, in order to `retrieve the data`.
+- __Another problem__ I encountered using __JS__ to access key-value data pairs, was that I wasn't getting an object     
+  back from the __GitHub API__. I tried a bunch of things ( I thought about using the __substr__ method to remove the     
+  outer quotes, but didn't want to do that), so instead, I ended up creating a self-executable __closure__ function to     
+  return the __parsed JSON data__, and set my headers to __JSON data-type__. I possibly over complicated myself, but it     
+  turned out good. __(see gitclient.html,line 31  >> ie. console.log(json(response)); <<)__.
+  
 - Other than that nOthIng... I could try maybe using jQuery next time, `too lazy to CDN in a Sunday`.
 
 <br />
