@@ -26,8 +26,9 @@
   to fix the problem using JSON.stringify(). __But__,
 - only to find out that `it wasn't even necessary`, in order to `retrieve the data`.
 - I could try maybe using jQuery next time.
-<br />
 
+<br />
+<br />
 ###  For ___troubleshooting___ Cross-Origin Resource Sharing (CORS) try link below: 
 
 <p>Helpful documentation: 
