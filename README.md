@@ -15,7 +15,22 @@
 	-  a new __`XMLHttpRequest`__ object inside of a function in __`client.html`__, then processes this         
            data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   	
 	 
-	 
+
+- __Another example__, but this time using the `GitHub API` to extract some data/stats stored for my profile page.
+- __URL to my stuff (API)__:  https://api.github.com/users/stefan22
+- To do that I need a form, where I would be entering my github profile __username__ and __GET__ upon submission,
+  the entire JSON file shown at the above URL.
+  __Looking back__:
+- Spent the most time figuring out an error I had, while parsing my secret key (Part of the Auth). Eventually, I managed
+  to fix it using JSON.stringify(). __But__,
+- only to find out that it wasn't even necessary to retrieve the data.
+- I should probably do it with jQuery next time. I think, it makes it easier working with JSON objects, and
+  callback functions.
+
+
+
+<p>Helpful documentation: <a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
+
 -  whatever else I find relevant...it will go here
 
 ```
