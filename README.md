@@ -40,6 +40,10 @@
 <p>Helpful documentation: 
 <a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
 </p>
+
+-  For __another day__, I've noticed the number of repos it pulled out was only 43. That's less than half of all    
+   of my repos.  It's just doing them for one page, so next time I should try looking into the API to get that fixed.
+   
 -  whatever else I find relevant...it will go here
 
 ```
