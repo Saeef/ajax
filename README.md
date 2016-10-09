@@ -14,9 +14,10 @@
 
 	-  a new __`XMLHttpRequest`__ object inside of a function in __`client.html`__, then processes this         
            data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   	
-	 
 
-- __Another example__, but this time using the `GitHub API` to extract some data/stats stored for my profile page.
+---
+
+- __Another example__, but this time using the __`GitHub API`__ to extract some data/stats stored for my profile page.
 - __URL to my stuff (API)__:  https://api.github.com/users/stefan22
 - To do that I need a form, where I would be entering my github profile __username__ and __GET__ upon submission,
   the entire JSON file shown at the above URL.
