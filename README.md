@@ -25,12 +25,13 @@
 - Spent most of my time on an error I got parsing my `secret key` (Part of the Auth). Eventually, I managed
   to fix the problem using JSON.stringify(). __But__,
 - only to find out that `it wasn't even necessary`, in order to `retrieve the data`.
-- I could try using jQuery next time.
+- I could try maybe using jQuery next time.
 
 
 
-<p>Helpful documentation: <a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
-
+<p>Helpful documentation: 
+<a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
+</p>
 -  whatever else I find relevant...it will go here
 
 ```
