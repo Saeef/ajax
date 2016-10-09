@@ -28,6 +28,7 @@
 - I could try maybe using jQuery next time.
 
 
+###  For ___troubleshooting___ Cross-Origin Resource Sharing (CORS) try link below 
 
 <p>Helpful documentation: 
 <a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
