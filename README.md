@@ -22,11 +22,11 @@
 - To do that I need a form, where I would be entering my github profile __username__ and __GET__ upon submission,
   the entire JSON file, shown at the above URL, __in return__. <br /><br />
   __Looking back__:
-- Spent the most time figuring out an error I had, while parsing my secret key (Part of the Auth). Eventually, I managed
-  to fix it using JSON.stringify(). __But__,
-- only to find out that it wasn't even necessary to retrieve the data.
-- I should probably do it with jQuery next time. I think, it makes it easier working with JSON objects, and
-  callback functions.
+- Spent most of my time on an error I got parsing my `secret key` (Part of the Auth). Eventually, I managed
+  to fix the problem using JSON.stringify(). __But__,
+- only to find out that `it wasn't even necessary`, in order to `retrieve the data`.
+- I should probably go with jQuery next time. I think, it makes working with JSON, objects, and
+  callback functions easier.
 
 
 
