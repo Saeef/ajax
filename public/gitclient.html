@@ -45,13 +45,13 @@
 			 	// user location
 				var loc = data['location'];
 			 	// number of followers
-				var followers = data['followers_url'];
-				followers.length;
+				var followers = data['followers'];
+				console.log(followers);
 			 	// number of repos
-				var repos = data['repos_url'];
+				var repos = data['public_repos'];
 				// number of repos in one page damn it!
 				// i got twice as many repos -need to look api
-				repos.lenght;
+				console.log(repos);
 
 				//message
 				document.getElementById('message').value = response;
@@ -61,9 +61,9 @@
 
 						"Current location is " + loc + "\n" +
 
-						"Number of followers: " + followers.length + "\n" +
+						"Number of followers: " + followers + "\n" +
 
-						"Number of repos per page: " + repos.length + "\n";
+						"Number of repos per page: " + repos  + "\n";
 
 
 			}	

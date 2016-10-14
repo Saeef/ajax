@@ -41,8 +41,13 @@
 <a href="https://cloud.google.com/storage/docs/cross-origin#Troubleshooting%20CORS-Related-Problems">Google Cloud Platform</a>
 </p>
 
--  For __another day__, I've noticed the number of repos it pulled out was only 43. That's less than half of all    
-   of my repos.  It's just doing them for one page, so next time I should try looking into the API to get that fixed.
+-  For __another day__, I've noticed the number of repos it pulled out was only 43. That's 
+   less than half of all    
+   of my repos.  It's just doing them for one page, so next time I should try looking into the API to get that fixed. 
+
+-  __About the 43 repos issue__: error on my part. I picked `repos_url` out of the JSON 
+   object returned to me, and then proceeded to apply the length method to it.
+   But if you `scroll down` the returned JSON object, you'll see another `key-value` pair near the bottom named: `public_repos`. There's no need to apply any length method either, it returns the total number of public repos a user has via dot notation.
    
 -  whatever else I find relevant...it will go here
 
