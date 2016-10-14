@@ -3,25 +3,7 @@
 <head>
 	<title>Server Request & Response</title>
 	<script type="text/javascript">
-		/*
-		//GET method in Ajax using Javascript
-		function updateText() {
-
-			var current_text = document.getElementById('user_text').value;
-			var http = new XMLHttpRequest();
-			
-			http.onreadystatechange = function() {
-				if(http.readyState == 4 && http.status == 200) {
-					var response = http.responseText;
-					document.getElementById('server_response').value = response;
-				}
-			};
-			// GET passed through URL
-			http.open("GET","http://localhost/server.php?user_text="+
-				      current_text, true);
-			http.send();
-		}
-		*/
+		
 
 		// POST method in Ajax using Javascript
 		function updateText() {
@@ -32,13 +14,14 @@
 			http.onreadystatechange = function() {
 				if(http.readyState == 4 && http.status == 200) {
 					var response = http.responseText;
+					console.log(response);
 					document.getElementById('server_response').value = response;
 				}
 			};
-			// POST passed through URL
+			// POST passed inside of send()
 			http.open("POST","http://localhost/server1.php", true);
 			http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-			http.send("user_text"+current_text);
+			http.send("user_text="+current_text);
 
 		}
 
