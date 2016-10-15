@@ -57,7 +57,7 @@ syntax:
       *  __http__:  an object of type XMLHttpRequest
 
 
-- __error(http, status, error)__: a function that gets executed, if there's any error
+- __error(http, status, error)__: a function that gets executed, if there are any errors
 								  during the execution of Ajax.
 
 
