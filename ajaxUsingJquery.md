@@ -7,7 +7,8 @@ Typically we run __$_GET__ or __$POST__ and execute a function once we have rece
 a success response from server.    
 In jQuery, we have __$.get__ and __$.post__     
 They're both great at doing __Ajax__ but provide very little control over the execution of Ajax.   
-`So what about if there's an error?`    
+
+### `So what about if there's an error?`    
 __Answer__-> $.ajax `(provides a lot more functionality than $.get and $.post)`
 You can perform both __GET__ and __POST__ Ajax using __$.ajax__
 <br />
