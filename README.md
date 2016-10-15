@@ -65,8 +65,8 @@ Requires:
 <hr />
 
 #### Found this site:   
-__apigee.com__ 
-it provides developers `tools` and `services` to `manage` __APIs__      
+__Apigee.com__ 
+provides developers `tools` and `services` to `manage` __APIs__      
 
 Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
    all your queries.       
