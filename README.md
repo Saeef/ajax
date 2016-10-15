@@ -62,7 +62,6 @@ Requires:
 	
 ```
 
-<br />
 <hr />
 
 -  I found this site: __apigee__ it provides developers `tools` and `services` to `manage` __APIs__      
@@ -70,11 +69,9 @@ Requires:
 -  Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
    your all your queries.       
 
+<hr />
 
 
-
-
-<br />
 <br />
 
 > **XMLHttpRequest** is an API that provides client functionality for transferring data between a client and a server. 
