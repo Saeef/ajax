@@ -65,14 +65,13 @@ Requires:
 <br />
 <hr />
 
-```
 -  I found this site: __apigee__ it provides developers `tools` and `services` to `manage` __APIs__      
 
 -  Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
    your all your queries.       
 
 
-```
+
 
 
 <br />
