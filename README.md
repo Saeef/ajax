@@ -57,17 +57,15 @@ Requires:
 -   I'm also using XAMPP (OSX).  
 -   If problems starting local server, check ports - I had to changed   
     my default port config(3306). That's all.    
--   Served at localhost and htdocs it's your root folder.    
-
-	
+-   Served at localhost and htdocs it's your root folder.    	
 ```
 
 <hr />
 
-#### Found this site: __apigee__ 
+#### Found this site:   __apigee.com__ 
 it provides developers `tools` and `services` to `manage` __APIs__      
 
--  Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
+Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
    all your queries.       
 
 <hr />
