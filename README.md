@@ -52,6 +52,8 @@
 -  whatever else I find relevant...it will go here
 
 ```
+
+
 Requires:
 
 -   I'm also using XAMPP (OSX).  
@@ -62,7 +64,8 @@ Requires:
 
 <hr />
 
-#### Found this site:   __apigee.com__ 
+#### Found this site:   
+__apigee.com__ 
 it provides developers `tools` and `services` to `manage` __APIs__      
 
 Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
