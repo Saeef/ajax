@@ -57,11 +57,11 @@ syntax:
       *  __http__:  an object of type XMLHttpRequest
 
 
-- __error(http, status, error)__: a function that gets executed, if there are any errors
-								  during the execution of Ajax.
+- __error(http, status, error)__: a function that gets executed, if there are any errors        
+				  during the execution of Ajax.
 
 
-	__error__ parameter: contains the kind of error it encounters/occurred.							  
+      * __error__ parameter: contains the kind of error it encounters/occurred.							  
 
 - __complete(http, status)__: a function that gets executed when ajax's execution   
 							  is completed. It's call after completion.  
