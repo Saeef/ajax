@@ -75,8 +75,8 @@ Requires:
 #### Found interesting:   
 1. __Apigee.com__ 
 provides developers `tools` and `services` to `manage` __APIs__      
-- Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__,           
-  where you can try/ run all your queries.               
+	- Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__,               
+  	  where you can try/ run all your queries.               
 
 2. __Getpostman.com__  web REST client tool for monitoring HTTP request and      
   responses, or creating and sending HTTP requests. Also testing etc.
