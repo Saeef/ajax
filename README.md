@@ -2,6 +2,14 @@
 
 #### because I realized that I don't have any notes in Ajax.
 
+### ajax folder
+contains my notes about retrieving data asynchronously using javascript,   
+jQuery, and from APIs
+### public folder
+contains examples i've constructed to extract JSON data using Ajax with both     
+javascript, and jQuery locally, and using an external API.
+
+
 
 -  `XMLHttpRequest` object very simple break down (see aboutAjax.md)
 -  JS and jQuery methods and a few examples
@@ -64,12 +72,16 @@ Requires:
 
 <hr />
 
-#### Found this site:   
+#### Found interesting:   
 __Apigee.com__ 
 provides developers `tools` and `services` to `manage` __APIs__      
 
 Most popular __RESTful APIs__ are easily found here - and it has a nice __API console__, where you can try/ run       
-   all your queries.       
+   all your queries.      
+
+__Getpostman.com__  web REST client tool for monitoring HTTP request and      
+  responses, or creating and sending HTTP requests. Also testing etc.
+  
 
 <hr />
 

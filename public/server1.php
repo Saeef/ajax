@@ -15,7 +15,7 @@
 	$response = strtoupper($user_text);
 	// send it back to the client
 	// i get array and response back on console and network tab
-	print_r($data);
+	//print_r($data);
 	echo $response;
 
 ?>

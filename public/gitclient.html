@@ -10,12 +10,19 @@
 	// to the rescue
 	// this below did not work
 	// var access_token = JSON.parse(data);   
+	// but this works good<!DOCTYPE html>
+	// json-getting error apparently im double parsing json so stringify 
+	// to the rescue
+	// this below did not work
+	// var access_token = JSON.parse(data);   
 	// but this works good
 	var access_token = JSON.stringify(data);
 	console.log(access_token);//returns {"secret_key":"value"}
 	var response = {};
 	var json = {};
 	var jdata = {};
+	
+	
 	
 
 	function grabData() {
@@ -24,8 +31,9 @@
 		console.log(username);//github username
 		
 		
-		debugger;
+		//debugger;
 		var http = new XMLHttpRequest();
+		
 		http.onreadystatechange = function() {
 			if(http.readyState == 4 && http.status == 200) {
 			  json = (function() {
@@ -40,6 +48,8 @@
 			 	// I could probably use a function for this later
 			 	// entire object array
 			 	var data = json(response);
+			 	console.log(data);
+			 	
 			 	//username
 			 	var user =  data['login'];
 			 	// user location
@@ -64,6 +74,8 @@
 						"Number of followers: " + followers + "\n" +
 
 						"Number of repos per page: " + repos  + "\n";
+
+						
 
 
 			}	

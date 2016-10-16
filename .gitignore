@@ -119,6 +119,7 @@ config.js
 /src_ajax/**
 access_token.json
 other_notes.txt
+/other/**
 
 # MongoDB acct info
 # =================

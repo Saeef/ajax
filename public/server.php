@@ -1,7 +1,7 @@
 <?php
 
 	// receive all data passed with GET
-	$data = $_GET;
+	$data = $_POST;
 	// get data inside of user_text
 	$user_text = $data["user_text"];
 	// do something with it like uppercasing
