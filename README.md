@@ -2,9 +2,11 @@
 
 #### because I realized that I don't have any notes in Ajax.
 
+## Folders:
+
 ### ajax folder
-contains my notes about retrieving data asynchronously using javascript,   
-jQuery, and from APIs
+contains my notes for retrieving data asynchronously using Ajax javascript,      
+or Ajax jQuery locally, and for sending HTTP requests to a RESTful API.
 ### public folder
 contains examples i've constructed to extract JSON data using Ajax with both     
 javascript, and jQuery locally, and using an external API.
