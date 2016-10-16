@@ -4,10 +4,11 @@
 
 ## Folders:
 
-### ajax folder
-contains my notes for retrieving data asynchronously using Ajax javascript,      
-or Ajax jQuery locally, and for sending HTTP requests to a RESTful API.
-### public folder
+### 1. Ajax folder
+contains my notes for making Ajax calls with JavaScript, and jQuery in a local
+server environment, and sending HTTP requests, retrieving JSON data from RESTful      
+APIs.
+### 2. Public folder
 contains examples i've constructed to extract JSON data using Ajax with both     
 javascript, and jQuery locally, and using an external API.
 
