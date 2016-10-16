@@ -10,7 +10,7 @@
    environment, and sending HTTP requests, retrieving JSON data from RESTful APIs.               
 ### 2. Public folder
    contains examples i've constructed to extract JSON data using Ajax with both     
-   javascript, and jQuery locally, and using an external API.
+   JavaScript, and jQuery locally, and using an external API.
 
 
 
