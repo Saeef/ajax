@@ -27,7 +27,7 @@
            data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   	
 
 ---
-
+### Public folder notes:
 - __Another example__, but this time using the __`GitHub API`__ to extract some data/stats stored for my profile page.
 - __URL to my stuff (API)__:  https://api.github.com/users/stefan22
 - To do that I need a form, where I would be entering my github profile __username__ and __GET__ upon submission,
