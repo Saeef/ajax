@@ -29,13 +29,13 @@
 
 - About __clientjQuery.html__ file    
 
-	- It applies all 3 methods: $.get, $.post and $.ajax 
-	- It's easier compared to using Javascript: we don't have to create an instance of XMLHttpRequest object
-	- We don't even need to pass the parameters in the URL for GET. JQuery does that for u.
+	- It applies all 3 methods: __$.get__, __$.post__, and __$.ajax__.         
+	- It's easier compared to using Javascript: we don't have to create an instance of __XMLHttpRequest__ object.    
+	- We don't even need to pass the parameters in the __URL__ for __GET__. __JQuery__ does that for __u__.
 	   
 - About __gitclient.html__ file
 
-	- Extracts data asynchronously from GitHub API using JavaScript/Ajax.
+	- Extracts data asynchronously from __GitHub API__ using __JavaScript/Ajax__.
 	   
 
 ---
