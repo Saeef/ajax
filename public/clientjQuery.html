@@ -6,8 +6,31 @@
 	<script type="text/javascript">
 		
 		function updateText() {
+			
+			//POST method using jQuery
+			var current_text = $('#user_text').val();
+			$.post("http://localhost/server.php",
+				  "user_text="+current_text,
+				  function(response, status, http) {
+				  		$('#server_response').val(response);
+				  }, "text"
+
+			);
+
+			/*
+			//GET method using jQuery
+			var current_text = $('#user_text').val();
+			$.get("http://localhost/server.php",
+				  "user_text="+current_text,
+				  function(response, status, http) {
+				  		$('#server_response').val(response);
+				  }, "text"
+
+			);
+			*/
 
 			//GET and POST method in Ajax using $.ajax
+			/*
 			var current_text = $('#user_text').val();
 			$.ajax({
 
@@ -26,6 +49,7 @@
 								} 
 
 			});
+			*/
 		}
 
 	</script>
