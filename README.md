@@ -24,7 +24,19 @@
 	      to uppercase inside of __`server.php`__   
 
 	-  a new __`XMLHttpRequest`__ object inside of a function in __`client.html`__, then processes this         
-           data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   	
+           data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   
+
+
+- About __clientjQuery.html__ file    
+
+	- It applies all 3 methods: $.get, $.post and $.ajax 
+	- It's easier compared to using Javascript: we don't have to create an instance of XMLHttpRequest object
+	- We don't even need to pass the parameters in the URL for GET. JQuery does that for u.
+	   
+- About __gitclient.html__ file
+
+	- Extracts data asynchronously from GitHub API using JavaScript/Ajax.
+	   
 
 ---
 ### Public folder notes:
