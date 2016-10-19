@@ -57,7 +57,7 @@
 - Other than that nOthIng... I could try maybe using jQuery next time, `too lazy to CDN in a Sunday`.
 
 <br />
-<br />
+
 ###  For ___troubleshooting___ Cross-Origin Resource Sharing (CORS) try link below: 
 
 <p>Helpful documentation: 
