@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Planets on Ajax</title>
+	<style type="text/css">
+		.wrapper {
+			width: 1200px;
+			margin:0 auto;
+		}
+		header {
+			padding:2em 0;
+		}
+		h1 {
+			text-align: center;
+			color:#333;
+		}
+		p {
+			text-align: center;
+			line-height: 24px;
+		}
+		span.high {
+			color: #ff5342;
+    		font-weight: bold;
+		}
+		.planets {
+			padding:0 2em;
+		}
+
+		input {
+			width: 350px;
+		    padding: 1em;
+		    font-size: 16px;
+		    line-height: 20px;
+		    border-radius: 7px;
+		    box-shadow: inset 0px -1px 3px #999999;
+		}
+
+		.results {
+			margin:5em 0;
+		}
+
+		.results h3 {
+			text-decoration: underline;
+			color:#333;
+		}
+
+		.results p {
+			font-size: 16px;
+			line-height: 24px;
+			text-align: left;
+			color: #ff5342;
+
+
+		}
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		function getPlanetDetails() {
+
+			$.ajax({
+
+				url:"http://localhost/planet.server.php",
+				type:"POST",
+				data:"planet_name="+$('#planet_name').val(),
+				dataType:"json",
+				success: function(response,status, http) {
+
+					console.log(response);
+					var results;
+					$.each(response, function(index,item) {
+						results = results + "Name: " + item.name + "<br />";
+						results = results + "No of days in a year: " +
+						item.no_of_days_in_year;
+					});
+					$('#results').html(results);
+
+				},
+				error: function(http, status, error) {
+					alert('some error occurred : ' + error);
+				}
+
+
+			});
+
+
+
+		}
+
+
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		
+		<h1>Finding information about any planets made easy.</h1>
+		<p>	
+			Say you wanna find information about planet <span class="high">earth
+			</span>, then you'd type <span class="high">earth</span>, and you'll get a few details about planet earth.<br />
+			Or maybe, you'd like to find all of the planets containing the 
+			letter <span class="high">e</span> in their name, then you'll just 
+			type <span class="high">e</span>.
+		</p>
+
+	</header>	
+
+	<section class="planets">
+		<h2>Planet Name:</h2>
+		<input type="text" name="planet_name" id="planet_name" 
+			   onkeyup="getPlanetDetails();" />
+		<div class="results">
+			<h3>Search Results:</h3>
+			<p id="results">See your results here</p>
+		</div>
+
+	</section>
+
+
+</div>  <!--  end of div wrapper   -->  	
+</body>
+</html>

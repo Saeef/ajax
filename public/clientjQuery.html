@@ -13,6 +13,7 @@
 				  "user_text="+current_text,
 				  function(response, status, http) {
 				  		$('#server_response').val(response);
+				  		console.log(http.status);
 				  }, "text"
 
 			);
