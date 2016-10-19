@@ -73,10 +73,8 @@
    But if you `scroll down` the returned JSON object, you'll see another __key-value__ pair near the bottom named: __public_repos__. There's no need to apply any length method either, it returns the total number of public repos a user has via dot notation.
    
 -  whatever else I find relevant...it will go here
-
+<br />
 ```
-
-
 Requires:
 
 -   I'm also using XAMPP (OSX).  
