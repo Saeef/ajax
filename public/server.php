@@ -8,6 +8,7 @@
 	$response = strtoupper($user_text);
 	// send it back to the client
 	echo $response;
+	print_r($response);
 
 
 ?>

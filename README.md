@@ -24,7 +24,19 @@
 	      to uppercase inside of __`server.php`__   
 
 	-  a new __`XMLHttpRequest`__ object inside of a function in __`client.html`__, then processes this         
-           data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   	
+           data, connects to __`server.php`__ and serves it back to the client browser __`asynchronously`__.   
+
+
+- About __clientjQuery.html__ file    
+
+	- It applies all 3 methods: __$.get__, __$.post__, and __$.ajax__.         
+	- It's easier compared to using Javascript: we don't have to create an instance of __XMLHttpRequest__ object.    
+	- We don't even need to pass the parameters in the __URL__ for __GET__. __JQuery__ does that for __u__.
+	   
+- About __gitclient.html__ file
+
+	- Extracts data asynchronously from __GitHub API__ using __JavaScript/Ajax__.
+	   
 
 ---
 ### Public folder notes:
@@ -45,7 +57,7 @@
 - Other than that nOthIng... I could try maybe using jQuery next time, `too lazy to CDN in a Sunday`.
 
 <br />
-<br />
+
 ###  For ___troubleshooting___ Cross-Origin Resource Sharing (CORS) try link below: 
 
 <p>Helpful documentation: 
@@ -61,10 +73,8 @@
    But if you `scroll down` the returned JSON object, you'll see another __key-value__ pair near the bottom named: __public_repos__. There's no need to apply any length method either, it returns the total number of public repos a user has via dot notation.
    
 -  whatever else I find relevant...it will go here
-
+<br />
 ```
-
-
 Requires:
 
 -   I'm also using XAMPP (OSX).  
