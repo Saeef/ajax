@@ -1,4 +1,4 @@
-# Ajax
+# few Things about Ajax
 
 ![Ajax](/images/ajax.gif?raw=true "Ajax")
 
