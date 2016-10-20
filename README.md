@@ -40,8 +40,8 @@
 
 - About __planet.html__ file
 
-	- Matches strings input in the client browser to an array in a PHP server file using Ajax, response is sent         
-	  back as a JSON object, and parsed back into the client with jQuery.          
+	- Matches strings input in the client browser to an array in a __PHP__ server file using __Ajax__, response is sent         
+	  back as a __JSON__ object, and parsed back into the client with __jQuery__.          
 	
 
 
