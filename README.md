@@ -38,6 +38,13 @@
 	- Extracts data asynchronously from __GitHub API__ using __JavaScript/Ajax__.
 	   
 
+- About __planet.html__ file
+
+	- Matches strings input in the client browser to an array in a PHP server file using Ajax, response is sent back as a JSON       
+	  object, and parsed back into the client with jQuery.
+	
+
+
 ---
 ### Public folder notes:
 - __Another example__, but this time using the __`GitHub API`__ to extract some data/stats stored for my profile page.
