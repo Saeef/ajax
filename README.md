@@ -1,6 +1,6 @@
 # Ajax  ...in progress
 
-#### because I realized that I don't have any notes in Ajax.
+[Ajax]: ajax/images/ajax.png "Ajax"
 <br />
 
 ## Folders:
