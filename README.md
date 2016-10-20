@@ -1,6 +1,6 @@
 # Ajax  ...in progress
 
-[Ajax]: ajax/images/ajax.png "Ajax"
+[Ajax]: /images/ajax.gif "Ajax"
 <br />
 
 ## Folders:
