@@ -68,7 +68,8 @@
 				success: function(response,status, http) {
 
 					console.log(response);
-					var results;
+					//set results to an array or first item be undefined
+					var results = [];
 					$.each(response, function(index,item) {
 						results = results + "Name: " + item.name + "<br />";
 						results = results + "No of days in a year: " +
